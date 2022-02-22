@@ -1,0 +1,15 @@
+imageio==2.13.5
+matplotlib==3.5.1
+numpy==1.22.1
+opencv-python==4.5.5.62
+Pillow==9.0.0
+PyYAML==5.4.1
+scikit-image==0.19.1
+scipy==1.7.3
+tensorboard==2.8.0
+tensorboardX==2.4.1
+tqdm
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.8.1+cu111
+torchaudio==0.8.1
+torchvision==0.9.1+cu11
