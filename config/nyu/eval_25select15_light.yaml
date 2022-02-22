@@ -1,0 +1,16 @@
+dataset: nyu
+phase: eval
+batch_size: 1
+gpus: [0]
+log_dir: ./logs/nyu/eval_25select15_light
+pre_a2j: ./checkpoint/nyu/25select15.pth
+pre_model_path: ./checkpoint/nyu/25select15_light.pth
+level: 4
+n_head: 1
+d_attn: 256
+d_k: 64
+d_v: 64
+d_inner: 256
+num_select: 15
+num_worker: 4
+save_result: True
