@@ -8,7 +8,7 @@ AAAI 2022.
 
 [Project Webpage](https://me495.github.io/handpose-virtualview/) &nbsp;  &nbsp;  &nbsp;   [Paper](https://arxiv.org/pdf/2203.15458)
 
-## Update (2020-3-30)
+## Update (2022-3-30)
 We upload prediction results in pixel coordinates (i.e., UVD format) for NYU and ICVL datasets: https://github.com/iscas3dv/handpose-virtualview/tree/main/result_nyu_icvl, Evaluation code (https://github.com/xinghaochen/awesome-hand-pose-estimation/tree/master/evaluation) can be applied for performance comparision among SoTA methods.
 
 ## Dependencies
