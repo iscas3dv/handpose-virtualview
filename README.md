@@ -6,7 +6,7 @@ AAAI 2022.
 
 ![pipeline](fig/pipeline.png)
 
-[Project Webpage](https://me495.github.io/handpose-virtualview/)   Paper(https://arxiv.org/pdf/2203.15458)
+[Project Webpage](https://me495.github.io/handpose-virtualview/)   [Paper](https://arxiv.org/pdf/2203.15458)
 
 ## Dependencies
 * `CUDA 11.1`
