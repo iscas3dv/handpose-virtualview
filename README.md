@@ -191,4 +191,6 @@ Please cite this paper if you want to use it in your work,
 ```
 
 ## Acknowledgements
-We use part of the great code from [A2J](https://github.com/zhangboshen/A2J) and [attention-is-all-you-need-pytorch](https://github.com/jadore801120/attention-is-all-you-need-pytorch).
+We use part of the great code from [A2J](https://github.com/zhangboshen/A2J), 
+[HandAugment](https://github.com/wozhangzhaohui/HandAugment) 
+and [attention-is-all-you-need-pytorch](https://github.com/jadore801120/attention-is-all-you-need-pytorch).
