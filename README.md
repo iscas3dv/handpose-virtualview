@@ -12,7 +12,7 @@ AAAI 2022.
 We upload prediction results in pixel coordinates (i.e., UVD format) for NYU and ICVL datasets: https://github.com/iscas3dv/handpose-virtualview/tree/main/result_nyu_icvl, Evaluation code (https://github.com/xinghaochen/awesome-hand-pose-estimation/tree/master/evaluation) can be applied for performance comparision among SoTA methods.
 
 ## Update (2022-6-7)
-Models being damaged during network transmission. We have uploaded new models. 
+The models were damaged during uploading to Google drive. We have uploaded new models. 
 
 ## Dependencies
 * `CUDA 11.1`
