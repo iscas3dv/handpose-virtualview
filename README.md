@@ -14,6 +14,9 @@ We upload prediction results in pixel coordinates (i.e., UVD format) for NYU and
 ## Update (2022-6-7)
 The models were damaged during uploading to Google drive. We have uploaded new models. 
 
+## Update (2022-06-27)
+Modify the training method of View selection with the "student" confidence network.
+
 ## Dependencies
 * `CUDA 11.1`
 
@@ -169,13 +172,13 @@ The model that selects 1 view from 25 views is the same as the model that select
 This step requires the use of the trained `teacher` confidence network, 
 please modify the `pre_a2j` field of the configuration file to the path of the previously trained model.
 ```angular2html
-python train_a2j.py --config config/nyu/train_25select15_light.yaml
+python view_select_a2j.py --config config/nyu/train_25select15_light.yaml
 ```
 ```angular2html
-python train_a2j.py --config config/nyu/train_25select9_light.yaml
+python view_select_a2j.py --config config/nyu/train_25select9_light.yaml
 ```
 ```angular2html
-python train_a2j.py --config config/nyu/train_25select3_light.yaml
+python view_select_a2j.py --config config/nyu/train_25select3_light.yaml
 ```
 
 ### ICVL Hand Posture Dataset
